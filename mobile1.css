@@ -1,0 +1,362 @@
+@media screen and (max-width: 720px){
+    .body{
+        height: 100vh;
+        width: 100vh;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+
+    .header{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .backround{
+        grid-area: 1/1/3/3;
+        width: 420px;
+        object-fit: none;
+        
+    }
+
+    .logobackround{
+        grid-area: 1/1/3/3;
+        width: 50%;
+        display: grid;
+        position: relative;
+        top: 11rem;
+    }
+
+    .headerbackround{
+        grid-area: 3/1/3/2;
+        width: 100%;
+        
+    }
+    .headerbackround2{
+        grid-area: 3/2/4/2;
+        width: 100%;
+    }
+
+    nav, a, a::after, a:hover{
+        display: none;
+    }
+
+    .article{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+        border-left: none;
+        border-right: none;
+    }
+
+    p{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .article_title{
+        grid-area: 100%;
+        bottom: 11rem;
+        right: 4rem;
+
+        h1{
+            font-size: 22px;
+        }
+    }
+
+    .article_text{
+        grid-area: 100%;
+        bottom: 9rem;
+        right: 7rem;
+    }
+    
+    .article-button1{
+        top: 7rem;
+        right: 18rem;
+    }
+
+    .article_circle{
+        display: grid;
+        position: relative;
+        top: 20rem;
+        left: 4rem;
+    }
+
+    .navline{
+        top: 11rem;
+    }
+
+    
+    .title{
+        display: grid;
+        position: relative;
+        top: 10rem;
+
+        p{
+            color: black;
+            font-size: 30px;
+        }
+    }
+    .main{
+        grid-template-columns: repeat(2, 175px);
+        grid-template-rows: repeat(3, 220px);
+        display: grid;
+        position: relative;
+        top: 10rem;
+        gap: 40px;
+        border-left: none;
+        border-right: none;
+    }
+
+    .main_img{
+        width: 175px;
+        height: 190px;
+    }
+
+    .main_logo{
+        width: 100px;
+        height: 150px;
+        top: 1rem;
+    }
+
+    .main_button{
+        padding: 1rem;
+        box-sizing: border-box;
+        background-color: #B93857;
+        border-radius: 10px;
+        color: #ffffff;
+        width: 80px;
+        height: 10px;
+        display: grid;
+        position: relative;
+        justify-self: flex-start;
+        bottom: 16mm;
+        left: 6rem;
+        font-size: 10px;
+        display: none;
+
+    }
+
+    .main_title{
+        font-size: 16px;
+        grid-area: 50%;
+        bottom: 1rem;
+        left: -1mm;
+    }
+
+    .main_date{
+        font-size: 15px;
+        color: black;
+        bottom: 3rem;
+        left: 3rem;
+    }
+
+    .main_name{
+        font-size: 15px;
+        bottom: -1rem;
+        left: -14mm;
+        color: black;
+    }
+
+    .main_button2{
+        display: grid;
+        position: relative;
+        justify-self: flex-start;
+        bottom: 16mm;
+        left: 9rem;
+
+    }
+
+
+    .button_more{
+        width: 120px;
+        height: 40px;
+        top: 13rem;
+        
+        h2{
+            color: white;
+            font-size: 14px;
+            
+        }
+
+    }
+
+    .article_circle2{
+       
+        width: 377px;
+        height: 377px;
+        grid-area: 1 / 2;
+        bottom: -16rem;
+        left: -8rem;
+    }
+
+    .article_title2{
+        bottom: -30rem;
+        left: 9rem;
+
+        h1{
+            font-size: 22px;
+        }
+    }
+
+    .article_text2{
+        grid-area: 100%;
+        top: 33rem;
+        left: 9rem;
+    }
+
+    .articlebutton2{
+        width: 200px;
+        height: 40px;
+        top: 22rem;
+        left: -2mm;
+        
+        
+        h1{
+            color: white;
+            font-size: 16px;
+    
+        } 
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+        position: relative;
+        justify-self: center;
+        top: 30rem;
+        border-left: none;
+        border-right: none;
+    }
+
+    .footer_img{
+        display: grid;
+        width: 100‰;
+        height: 900px;
+        object-fit: cover;
+        object-position: 50‰ 50‰;
+        grid-area: 1 / 1 / 2 /1;
+        
+    }
+
+    .footer_logo{
+        width: 200px;
+        height: 200px;
+        justify-self: center;
+        bottom: -12rem;
+        right: 18rem;
+    }
+
+    .footer_text{
+        bottom: -14rem;
+        left: 19rem;
+        color: #edede9;
+        display: grid;
+        position: relative;
+        bottom: 3rem;
+        width: 100%;
+        height: 480px;
+    
+        p{
+            font-size: 60px;
+            display: grid;
+            left: 1rem;
+            color: white;
+        }
+    }
+
+    .footer_link{
+        display: grid;
+        position: relative;
+        justify-self: center;
+        grid-column: 2/ 2;
+        bottom: -19rem;
+        right: 20rem;
+        
+        
+        a{
+            color: #edede9;
+            display: grid;
+            position: relative;
+            justify-self: center;
+            bottom: 40mm;
+            right: 5rem;
+            font-size: 20px;
+
+        }
+    
+        .footer_telphone{
+            display: grid;
+            position: relative;
+            justify-self: center;
+            grid-column: 1/ 2;
+            bottom: -5rem;
+            right: 10rem;
+            width: 25px;
+        }
+    
+    }
+
+
+    .footer-link2{
+        display: grid;
+        position: relative;
+        justify-self: center;
+        grid-column: 2/ 2;
+        bottom: 10rem;
+        left: -2rem;
+        
+        a{
+            color: #edede9;
+            display: grid;
+            position: relative;
+            justify-self: center;
+            bottom: 42mm;
+            right: 12rem;
+            font-size: 20px;
+
+        }
+
+        .footer-mail{
+            width: 25px;
+            bottom: -5rem;
+        }
+    
+    }
+
+    .footer_end{
+        grid-column: 2/ 2;
+        bottom: 3rem;
+        background-color: rgba(221, 221, 218, 0.949);
+        width: 104%;
+        height: 30px;
+    }
+
+    .footer_end_text{
+        display: grid;
+        position: relative;
+        justify-self: center;
+        grid-column: 2/ 2;
+        bottom: 2rem;
+        right: 3rem;
+        color: black;
+       
+    }
+
+    .border-line{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
